@@ -179,7 +179,7 @@ const arr2 = new Array(7);
 console.log(arr1.length); // 3
 console.log(arr2.length); // 7
 
-// 2 ** 32 - 1 // 4294967295
+// 2 ** 32 - 1 // 4294967295 max length of array
 
 // arr1.length = 0  // remove all elements, empty array []
 arr1.length = 9
