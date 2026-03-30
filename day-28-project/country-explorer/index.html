@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Country Explorer</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
     <link href="/src/index.css" rel="stylesheet" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script defer type="module" src="/src/main.js"></script>
+    
   </head>
   <body class="bg-gray-900 text-white">
 
@@ -20,7 +23,7 @@
         <button id="searchBtn" class="bg-blue-500 text-white px-4 py-2 rounded">Search</button>
       </div>
 
-      <div id="loder" class="hidden mt-4 text-center">Loading...</div>
+      <div id="loader" class="hidden mt-4 text-center">Loading...</div>
       <div id="error" class="hidden mt-4 text-center text-red-500"></div>
 
       <div id="countryDetails" class="mt-4 space-y-4"></div>
