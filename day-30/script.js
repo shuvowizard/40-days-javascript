@@ -114,6 +114,22 @@ console.log(Animal.prototype)
 
 //* 7. Static Properties
 
+// Function Constructor
+function Computer(name, model) {
+    this.name = name;
+    this.model = model;
+}
+
+Computer.staticMethod = function () {
+    console.log('this is a static method');
+}
+
+const dell = new Computer("Dell", "XPS 15");
+console.log(dell);
+
+Computer.staticMethod();  // this is a static method
+
+// Class Constructor
 class MyClass {
     static staticMethod() {
         console.log(this);
